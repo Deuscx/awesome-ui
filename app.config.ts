@@ -17,7 +17,17 @@ export default defineAppConfig({
         light: '/logo.svg',
         dark: '/logo-dark.svg',
       },
-      nav: [],
+      nav: [
+        {
+          title: 'Components',
+          links: [{
+            title: 'Components',
+            to: '/components',
+            description: 'Explore available UI components and usage examples.',
+            icon: 'lucide:box',
+          },]
+        }
+      ],
       links: [{
         icon: 'lucide:github',
         to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
