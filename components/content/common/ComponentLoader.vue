@@ -30,5 +30,6 @@
   withDefaults(defineProps<Props>(), {
     icon: "lucide:square-terminal",
   });
+
   </script>
   
